@@ -1,0 +1,44 @@
+public class Ogrenciler {
+    private String isim;
+    private  String soyad;
+    private  int Okul_NO;
+
+    public Ogrenciler(String isim, String soyad, int okul_NO) {
+        this.isim = isim;
+        this.soyad = soyad;
+        Okul_NO = okul_NO;
+    }
+
+    public String getIsim() {
+        return isim;
+    }
+
+    public void setIsim(String isim) {
+        this.isim = isim;
+    }
+
+    public String getSoyad() {
+        return soyad;
+    }
+
+    public void setSoyad(String soyad) {
+        this.soyad = soyad;
+    }
+
+    public int getOkul_NO() {
+        return Okul_NO;
+    }
+
+    public void setOkul_NO(int okul_NO) {
+        Okul_NO = okul_NO;
+    }
+
+    @Override
+    public String toString() {
+        return "Ogrenciler{" +
+                "isim='" + isim + '\'' +
+                ", soyad='" + soyad + '\'' +
+                ", Okul_NO=" + Okul_NO + "\n"+
+                '}';
+    }
+}
